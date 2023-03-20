@@ -1,10 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 /*
- * main - Entry point
  *
- * description - A program that prints a line with a puts function
+ * description - A program that prints out a line with puts function
  *
- * Retrun: 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {

@@ -16,11 +16,11 @@ int main(void)
 	scanf("%d, %d, %d", &A, &B, &C);
 
 	if (A >= B && A >= C)
-		print("%d is the largest number.", A);
+		printf("%d is the largest number.", A);
 	if (B >= A && B >= C)
-		print("%d is the largest number.", B);
+		printf("%d is the largest number.", B);
 	if (C >= A && C >= B)
-		print("%d is the largest number.", c);
+		printf("%d is the largest number.", C);
 
 	return (0);
 }

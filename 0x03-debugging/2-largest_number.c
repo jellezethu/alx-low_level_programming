@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * largest_number - returns the largest of 3 numbers
@@ -10,7 +10,7 @@
 
 int main(void)
 {
-    int A, B, C;
+	int A, B, C;
 
 	printf("enter the number A, B and C: ");
 	scanf("%d, %d, %d", &A, &B, &C);

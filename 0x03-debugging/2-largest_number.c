@@ -2,28 +2,25 @@
 
 /**
  * largest_number - returns the largest of 3 numbers
- * @a: first integer
- * @b: second integer
- * @c: third integer
+ * @A: first integer
+ * @B: second integer
+ * @C: third integer
  * Return: largest number
  */
 
-int largest_number(int a, int b, int c)
+int main(void)
 {
-    int largest;
+    int A, B, C;
 
-	if (a > b && b > c)
-	{
-	largest = a;
-	}
-	else if (b > a && a > c)
-	{
-	largest = b;
-	}
-	else
-	{
-	largest = c;
-	}
+	printf("enter the number A, B and C: ");
+	scanf("%d, %d, %d", &A, &B, &C);
+
+	if (A >= B && A >= C)
+		print("%d is the largest number.", A);
+	if (B >= A && B >= C)
+		print("%d is the largest number.", B);
+	if (C >= A && C >= B)
+		print("%d is the largest number.", c);
 
 	return (0);
 }

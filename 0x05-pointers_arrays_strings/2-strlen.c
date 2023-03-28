@@ -2,7 +2,7 @@
 
 /**
  * _strlen -i returns the value of a string
- * @s - string whos length to return
+ * @s: - string whos length to return
  * Return: the value of the string
  *
  */

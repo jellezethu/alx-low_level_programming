@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _sterlen - returns the value of a string
+ * _strlen -i returns the value of a string
  * @s - string whos length to return
  * Return: the value of the string
  *

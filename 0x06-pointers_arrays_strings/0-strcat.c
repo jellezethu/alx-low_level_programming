@@ -2,6 +2,9 @@
 #include <string.h>
 
 /**
+ * _strcat - Concatenates(put together) the string pointed to by @src,
+ *          to the end of the string pointed to by @dest.+ terminating null byt
+ *          at the end
  * main - function that concatenates two strings
  * @src: input source
  * @dest: output dource for dest

@@ -2,7 +2,7 @@
 
 /**
  * cap_string - Write a function that capitalizes all words of a string.
- *
+ * @s: pointer to input string
  * @str: the string to be capitilized
  *
  * Return: a pointer to the changed String

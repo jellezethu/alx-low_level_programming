@@ -7,7 +7,7 @@
  * Return: Pointer to the first occurrence of the character c in the string s
  **/
 
-char *_strchr(char *s, char c)
+char *_memcpy(char *dest, char src, usigned int n)
 {
 
 	unsigned int i;

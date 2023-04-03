@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- *_memcpy -   copy number bytes form adress "from" to adress "to"
- *@dest: content is to be copied
- *@src: Source of data to be copied
- *@n: bytes of the memory
- *Return: dest
+ *_memset - Entry point
+ *@s: pointed destination
+ *@b: constant byte
+ *@n: bytes
+ *Return: Always 0 (success)
  */
 
-char *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char *b, unsigned int n)
 {
 	unsigned int i;
 

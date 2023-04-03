@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * _strchr - Locates a character in a string
- * @s: String
- * @c: Character to search
- * Return: Pointer to the first occurrence of the character c in the string s
+ * _memcpy - Entry point
+ * @src: input
+ * @dest: input
+ * @n: input
+ * Return: Always 0 (success)
  **/
 
-char *_memcpy(char *dest, char src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 
 	unsigned int i;

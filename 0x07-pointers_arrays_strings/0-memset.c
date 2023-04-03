@@ -7,19 +7,14 @@
  *Return: dest
  */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
-
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	i = 0;
-	while (i < n)
+	for (i = 0; i < n; i++)
 	{
-		*(dest + i) = *(src + i);
-		i++;
-
+		s[i] = b;
 	}
 
-
-	return (dest);
+	return (s);
 }

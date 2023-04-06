@@ -1,22 +1,14 @@
 #include <unistd.h>
 
 /**
- * main - check the code for ALX students
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: Always 0.
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+int _putchar(char c)
 {
-    int r;
-
-    r = is_palindrome("level");
-    printf("%d\n", r);
-    r = is_palindrome("redder");
-    printf("%d\n", r);
-    r = is_palindrome("main");
-    printf("%d\n", r);
-    r = is_palindrome("step on no pets");
-    printf("%d\n", r);
-    return (0);
+	return (write(1, &c, 1));
 }
 
